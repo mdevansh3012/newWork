@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Header from "./components/Header";
 import LandingSection from "./components/LandingSection";
 import JourneySection from "./components/JourneySection";
 import MusicSection from "./components/MusicSection";
@@ -24,6 +25,7 @@ function App() {
       <StarryBackground />
 
       <div className="scroll-snap-container h-screen overflow-y-auto overflow-x-hidden relative z-10">
+        <Header />
         <LandingSection />
         {loaded && (
           <>

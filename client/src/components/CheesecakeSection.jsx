@@ -9,30 +9,50 @@ const CheesecakeSection = () => {
   const [rewardHistory, setRewardHistory] = useState([]);
 
   // Simple puzzles - you can expand these
-  const puzzles = [
-    {
-      question:
-        "What has keys but no locks, space but no room, and you can enter but not go in?",
-      answer: "keyboard",
-    },
-    {
-      question: "I'm tall when I'm young, and short when I'm old. What am I?",
-      answer: "candle",
-    },
-    { question: "What gets wetter as it dries?", answer: "towel" },
-    { question: "What has a neck but no head?", answer: "bottle" },
-    {
-      question: "What can travel around the world while staying in a corner?",
-      answer: "stamp",
-    },
-    { question: "What has many teeth but cannot bite?", answer: "comb" },
-    { question: "What has one eye but cannot see?", answer: "needle" },
-    {
-      question: "What runs but never walks, has a mouth but never talks?",
-      answer: "river",
-    },
-    
-  ];
+const puzzles = [
+  {
+    question:
+      "What has keys but no locks, space but no room, and you can enter but not go in?",
+    answer: "keyboard",
+  },
+  {
+    question: "I'm tall when I'm young, and short when I'm old. What am I?",
+    answer: "candle",
+  },
+  {
+    question: "What gets wetter as it dries?",
+    answer: "towel",
+  },
+  {
+    question: "What has a neck but no head?",
+    answer: "bottle",
+  },
+  {
+    question: "What can travel around the world while staying in a corner?",
+    answer: "stamp",
+  },
+  {
+    question: "What has many teeth but cannot bite?",
+    answer: "comb",
+  },
+  {
+    question: "What has one eye but cannot see?",
+    answer: "needle",
+  },
+  {
+    question: "What runs but never walks, has a mouth but never talks?",
+    answer: "river",
+  },
+  {
+    question: "What belongs to you, but other people use it more than you do?",
+    answer: "your name",
+  },
+  {
+    question: "What has hands but can’t clap?",
+    answer: "clock",
+  },
+];
+
 
   // Check for milestones when slices change
   useEffect(() => {

@@ -145,7 +145,10 @@ const WishSection = () => {
   );
 
   return (
-    <section className="py-24 px-6 text-center relative z-10 overflow-hidden">
+    <section
+      id="wishes"
+      className="py-24 px-6 text-center relative z-10 overflow-hidden"
+    >
       {/* Static background stars */}
       <StarBackground />
 

@@ -80,6 +80,7 @@ module.exports = {
           glow: "0 0 10px rgba(255, 192, 203, 0.6)",
         },
       },
+
     },
   },
   plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
