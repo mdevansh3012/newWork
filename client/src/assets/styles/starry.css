@@ -1,0 +1,30 @@
+.stars,
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  z-index: 0;
+}
+
+.stars {
+  background: transparent url("/stars.png") repeat top center;
+  animation: moveStars 100s linear infinite;
+}
+
+.twinkling {
+  background: transparent url("/twinkling.png") repeat top center;
+  animation: moveTwinkling 200s linear infinite;
+}
+
+@keyframes moveStars {
+  from { background-position: 0 0; }
+  to { background-position: -10000px 5000px; }
+}
+
+@keyframes moveTwinkling {
+  from { background-position: 0 0; }
+  to { background-position: 10000px 10000px; }
+}
