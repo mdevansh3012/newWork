@@ -4,10 +4,25 @@ import "slick-carousel/slick/slick-theme.css";
 import { Heart, Cake, Gift, Stars } from "lucide-react";
 
 const images = [
-  { src: "/assets/images/yashvi1.jpg", alt: "At Blue Oven Cafe" },
-  { src: "/assets/images/yashvi2.jpg", alt: "SkyBlue Mall moment" },
-  { src: "/assets/images/yashvi3.jpg", alt: "Theobroma Cafe smile" },
-  { src: "/assets/images/yashvi4.jpg", alt: "Nin's Kitchen dinner" },
+  { src: "/assets/images/yashvi6.png", alt: "My Babyyy 💖✨" },
+  { src: "/assets/images/yashvi2.jpg", alt: "K's charcoal 🖌️🌙" },
+  {
+    src: "/assets/images/yashvi3.jpg",
+    alt: "When it all felt like a Dream 💭💫",
+  },
+  {
+    src: "/assets/images/yashvi4.jpg",
+    alt: "That wink is Heart meltinggg 😉❤️‍🔥",
+  },
+  { src: "/assets/images/yashvi5.webp", alt: "Ghibli Version of Us 🌈🏰" },
+  {
+    src: "/assets/images/yashvi1.jpg",
+    alt: "One of my all time favourite 💎💞",
+  },
+  {
+    src: "/assets/images/yashvi7.png",
+    alt: "Dimaag ka istemal kar rahi hai yashviii 🧠💫",
+  },
 ];
 
 const JourneySection = () => {
