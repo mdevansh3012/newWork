@@ -46,7 +46,7 @@ const Header = () => {
             <div className="text-3xl font-bold text-white">
               <span className="inline-block">Y</span>
               <span className="inline-block text-pink-200">&</span>
-              <span className="inline-block">K</span>
+              <span className="inline-block">D</span>
             </div>
             <div className="ml-2 hidden md:block">
               <span className="text-white/70 text-sm font-medium">
