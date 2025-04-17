@@ -115,12 +115,6 @@ const puzzles = [
             >
               Kiss 😘
             </button>
-            <button
-              onClick={() => selectReward("Surprise")}
-              className="bg-pink-500 hover:bg-pink-600 text-white py-2 px-4 rounded-full transition"
-            >
-              Surprise 🎁
-            </button>
           </div>
         </div>
       ) : (

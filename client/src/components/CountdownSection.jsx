@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import SecretLetter from "./SecretLetter"; // Import the SecretLetter component
 
 const CountdownSection = () => {
-  const birthday = new Date("2025-04-17T18:00:00").getTime();
+  const birthday = new Date("2025-04-17T17:30:00").getTime();
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,
